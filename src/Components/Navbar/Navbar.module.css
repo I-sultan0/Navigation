@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.logo,
+.items {
+  border: 1px solid black;
+  margin: 0 15px;
+}
+
+.items ul {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+}
+.items ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+.items ul li a {
+  text-decoration: none;
+}
+.items ul li a:active,
+.items a.active,
+.items a:hover {
+  color: #95bcf0;
+  padding-bottom: 0.25rem;
+  border-bottom: 4px solid #95bcf0;
+}
